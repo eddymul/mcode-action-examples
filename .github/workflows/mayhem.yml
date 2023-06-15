@@ -77,7 +77,7 @@ jobs:
 
       - name: Start analysis for ${{ matrix.mayhemfile }}
         id: run-mayhem
-        uses: ForAllSecure/mcode-action@v1
+        uses: ForAllSecure/mcode-action@app-mayhem-security
         with:
           mayhem-url: ${{ secrets.MAYHEM_URL }}
           mayhem-token: ${{ secrets.MAYHEM_TOKEN }}
