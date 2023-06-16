@@ -1,7 +1,7 @@
 image: forallsecure/c-base-executable:latest # fields are unnecessary
 duration: 90                                 # since they will
 project: mayhem-examples                     # be filled at
-target: c-base-executable                    # run creation time
+target: c-base-executable3                    # run creation time
 advanced_triage: true
 tasks:
   - name: exploitability_factors
